@@ -1,0 +1,58 @@
+p {
+    font-size: 50px;
+    font-family: "游ゴシック";
+}
+body {
+    background-color: linen;
+}
+
+div {
+    background-color: aquamarine;
+    border-color: black;
+    border: solid;
+    border-color: darkcyan;
+}
+
+span.cation{
+    color: red;
+    font-display: unset;
+}
+
+span[id = checkAns1]{
+    display: none;
+}
+
+input[id=check1]:checked + span[id = checkAns1]{
+    display: block;
+}
+
+span.checkAns2{
+    display: none;
+}
+
+input[id = "check2"]:checked + span.checkAns2{
+    display: inline;
+}
+
+span[id=checkAns3]{
+    display: none;
+}
+
+input[id=check3]:checked + span[id = checkAns3]{
+    display: block;
+}
+
+/* 点滅 */
+h1 {
+	-webkit-animation: h1 1s ease-in-out infinite alternate;
+	animation: h1 1s ease-in-out infinite alternate;
+    color: orange;
+}
+@-webkit-keyframes h1 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes h1 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
