@@ -14,3 +14,4 @@ for (let i = 0; i < info.length; i++){
         document.body.appendChild(openInformation);
     });
 }
+
