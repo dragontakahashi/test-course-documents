@@ -18,29 +18,6 @@ span.cation{
     font-display: unset;
 }
 
-span[id = checkAns1]{
-    display: none;
-}
-
-input[id=check1]:checked + span[id = checkAns1]{
-    display: block;
-}
-
-span.checkAns2{
-    display: none;
-}
-
-input[id = "check2"]:checked + span.checkAns2{
-    display: inline;
-}
-
-span[id=checkAns3]{
-    display: none;
-}
-
-input[id=check3]:checked + span[id = checkAns3]{
-    display: block;
-}
 
 /* 点滅 */
 h1 {
