@@ -17,7 +17,14 @@ span.cation{
     color: red;
 }
 
+video{
+    width: 500px;
+    display: none;
+}
 
+:checked + video{
+    display: block;
+}
 /* 点滅 */
 h1 {
 	-webkit-animation: h1 1s ease-in-out infinite alternate;
